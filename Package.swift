@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "MMNumberKeyboard",
             path: "Classes",
-            resources: [.process("../Images")],
+            resources: [.process("Images")],
             publicHeadersPath: "."
             ),
     ]
