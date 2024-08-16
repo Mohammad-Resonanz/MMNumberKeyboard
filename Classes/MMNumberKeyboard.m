@@ -780,7 +780,7 @@ NS_INLINE CGRect MMButtonRectMake(CGRect rect, CGRect contentRect, BOOL usesRoun
         return [UIImage imageWithContentsOfFile:resourcePath];
     }
 
-    return [UIImage imageNamed:resource];
+    return [UIImage imageNamed:resource inBundle:bundle compatibleWithTraitCollection:nil];
 }
 
 #pragma mark - Matching the system's appearance.
